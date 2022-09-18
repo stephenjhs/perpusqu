@@ -21,7 +21,7 @@ Website yang digunakan untuk mengelola data buku.
 
 <h2 id="demo">Halaman Demo</h2>
 
-Udah kuhostingnya di heroku semalam, cuman driver databasenya gak bisa pake mysql, mau gak mau pake heroku postgresql. jadi yaudahlah kalo mau coba websitenya langsung aja cus clone reponya yaahh :*
+Udah kuhostingnya di heroku semalam, cuman driver databasenya gak bisa pake mysql, mau gak mau pake heroku postgresql. jadi yaudahlah kalo mau coba websitenya langsung aja cus clone reponya yaahh :* Oh iya setelah install nanti kalo mau coba login pake akun admin. username: admin, password: admin
 
 <h2 id="syarat">Pra-Instalasi</h2>
 
