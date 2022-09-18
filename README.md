@@ -1,29 +1,56 @@
-# Perpusqu - Sistem Informasi Perpustakaan Berbasis Web
+<h1>Perpusqu - Sistem Informasi Perpustakaan</h1>
 
-Website Pengelolaan Perpustakaan dengan 3 role, yaitu :
-- Admin
-- Petugas
-- Anggota
+![sppie-preview](https://github.com/stephenjhs/perpusqu/blob/master/screenshot.png)
 
-## Table of contents
+<h4>Website pengelolaan perpustakaan yang dibuat dengan PHP 8.
+</h4>
 
-- [Penjelasan](#penjelasan)
-  - [Screenshot](#screenshot)
-- [Dibuat Dengan](#dibuat-dengan)
+<p>
+  <a href="#tentang">About Perpusqu</a> •
+  <a href="#fitur">Fitur</a> •
+  <a href="#download">Download & Install</a> •
+</p>
 
-## Penjelasan
+<h2 id="tentang">About Perpusqu</h2>
 
-### Screenshot
+Website yang digunakan untuk mengelola data buku.
 
-![](./screenshot.png)
+<h2 id="fitur">✨ Fitur Tersedia</h2>
 
-## Dibuat Dengan
+- BANYAK LAH POKOKNYA, MALAS TERANGINNYA SATU-SATU
 
-- PHP
-- Bootstrap
-- Mazer Template 
-- Javascript
-- Illuminate DB, FS, Translation, Validation
-- DOMPDF
+<h2 id="demo">Halaman Demo</h2>
 
-Segitu aja sih, males jelasin fitur panjang-panjang hehe
+Udah kubuatnya di heroku tadi, cuman kek anjeng databasenya cuman bisa pgsql, sementara web ini gak suport pgsql (mysql kian dari awal kubuat), mau pake cleardb mysql gakbisa harus verified akun herokunya bangsat emg. jadi yaudahlah kalo mau coba websitenya langsung aja cus clone reponya yaahh :*
+
+<h2 id="syarat">Pra-Instalasi</h2>
+
+Agak ko perhatikan dlu apa apa aja yang harus ada di laptopmu ya
+
+- PHP 8 & Web Server [XAMPP, LAMPP, MAMP] (BTW AKU GAK PAKE SALAH SATU DARI 3 WEBSERVER ITU, THE REAL PROGRAMMER SETUP MANUAL ANJAY)
+- Composer
+- NodeJS
+- Web Browser [Chrome, Firefox, Safari & Opera]
+- Internet
+
+<h2 id="download">Cara Install</h2>
+
+```bash
+# Clone repository ini atau download di
+$ git clone https://github.com/stephenjhs/perpusqu.git
+
+# Kemudian jalankan command composer install, ini akan menginstall resources yang laravel butuhkan
+$ composer install
+
+# Jalankan web server (AGAK BEDA SAMA SERVER DI XAMPP, INI HARUS DARI SINI DIA DI RUN SERVERNYA, KALO GAK ERROR DIA)
+$ php -S localhost:8000 -t public
+
+# habis tu ko buka dlu browser kau baru ketikan 'localhost/phpmyadmin'
+# import lah database nya, ada di folder app/config/perpusqu.sql
+# kalo mau ubah data initialize nya bisa edit aja di phpmyadminnya
+# udah selesai, kalo mau tes login boleh, ada pada 'localhost:8000/login' <- itu route nya
+
+# Selamat website dapat anda nikmati di local!
+```
+
+**<p>Sekian dari saya thenkyou</p>**
