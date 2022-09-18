@@ -1,0 +1,9 @@
+{
+    "require": {
+        "illuminate/database": "^9.19",
+        "illuminate/filesystem": "^9.14",
+        "illuminate/translation": "^9.14",
+        "illuminate/validation": "^9.14",
+        "dompdf/dompdf": "^2.0"
+    }
+}
