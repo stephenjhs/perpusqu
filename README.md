@@ -21,13 +21,13 @@ Website yang digunakan untuk mengelola data buku.
 
 <h2 id="demo">Halaman Demo</h2>
 
-Udah kubuatnya di heroku tadi, cuman kek anjeng databasenya cuman bisa pgsql, sementara web ini gak suport pgsql (mysql kian dari awal kubuat), mau pake cleardb mysql gakbisa harus verified akun herokunya bangsat emg. jadi yaudahlah kalo mau coba websitenya langsung aja cus clone reponya yaahh :*
+Udah kuhostingnya di heroku semalam, cuman driver databasenya gak bisa pake mysql, mau gak mau pake heroku postgresql. jadi yaudahlah kalo mau coba websitenya langsung aja cus clone reponya yaahh :*
 
 <h2 id="syarat">Pra-Instalasi</h2>
 
 Agak ko perhatikan dlu apa apa aja yang harus ada di laptopmu ya
 
-- PHP 8 & Web Server [XAMPP, LAMPP, MAMP] (BTW AKU GAK PAKE SALAH SATU DARI 3 WEBSERVER ITU, THE REAL PROGRAMMER SETUP MANUAL ANJAY)
+- PHP 8 & Web Server [XAMPP, LAMPP, MAMP] (BTW AKU GAK PAKE SALAH SATU DARI 3 WEBSERVER ITU, THE REAL WEBDEV SETUP MANUAL ANJAY)
 - Composer
 - NodeJS
 - Web Browser [Chrome, Firefox, Safari & Opera]
@@ -39,7 +39,7 @@ Agak ko perhatikan dlu apa apa aja yang harus ada di laptopmu ya
 # Clone repository ini atau download di
 $ git clone https://github.com/stephenjhs/perpusqu.git
 
-# Kemudian jalankan command composer install, ini akan menginstall resources yang laravel butuhkan
+# Kemudian jalankan command composer install, ini akan menginstall resources yang dibutuhkan
 $ composer install
 
 # Jalankan web server (AGAK BEDA SAMA SERVER DI XAMPP, INI HARUS DARI SINI DIA DI RUN SERVERNYA, KALO GAK ERROR DIA)
