@@ -21,7 +21,7 @@ Website yang digunakan untuk mengelola data buku.
 
 <h2 id="demo">Halaman Demo</h2>
 
-Udah kuhostingnya di heroku semalam, cuman driver databasenya gak bisa pake mysql, mau gak mau pake heroku postgresql. jadi yaudahlah kalo mau coba websitenya langsung aja cus clone reponya yaahh :* Oh iya setelah install nanti kalo mau coba login pake akun admin. username: admin, password: admin
+Udah kuhostingnya di heroku semalam, cuman driver databasenya gak bisa pake mysql, mau gak mau pake heroku postgresql. jadi yaudahlah kalo mau coba websitenya langsung aja cus clone reponya yaahh :\* Oh iya setelah install nanti kalo mau coba login pake akun admin. username: admin, password: admin
 
 <h2 id="syarat">Pra-Instalasi</h2>
 
@@ -41,6 +41,12 @@ $ git clone https://github.com/stephenjhs/perpusqu.git
 
 # Kemudian jalankan command composer install, ini akan menginstall resources yang dibutuhkan
 $ composer install
+
+# Install package javascript
+$ npm install
+
+# Jalankan tailwindcss
+$ npm run tailwindcss
 
 # Jalankan web server (AGAK BEDA SAMA SERVER DI XAMPP, INI HARUS DARI SINI DIA DI RUN SERVERNYA, KALO GAK ERROR DIA)
 $ php -S localhost:8000 -t public

@@ -237,7 +237,7 @@ CREATE TABLE `online` (
 CREATE TABLE `peminjaman` (
   `id` int NOT NULL,
   `anggota_id` int NOT NULL,
-  `pengguna_id` int NOT NULL,
+  `pengguna_id` int DEFAULT NULL,
   `tanggal_peminjaman` date NOT NULL,
   `batas_pengembalian` date NOT NULL,
   `tanggal_dikembalikan` date DEFAULT NULL,
